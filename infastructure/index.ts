@@ -45,7 +45,6 @@ const webApp = new azure.web.WebApp("weather-webapp", {
   name: appName,
 });
 
-// ✅ Export the public URL so it shows up in `pulumi stack output`
 export const url = webApp.defaultHostName.apply(
   host => `https://${host}`
 );
