@@ -1,0 +1,3 @@
+name: cst8918-a03-h03-pulumi-weather
+runtime: nodejs
+main: .
