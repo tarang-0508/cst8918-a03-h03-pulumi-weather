@@ -1,0 +1,10 @@
+{
+  "name": "my-remix-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "remix dev",
+    "build": "remix build",
+    "start": "remix-serve build"
+  },
+  ...
+}
